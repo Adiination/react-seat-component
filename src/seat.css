@@ -1,0 +1,46 @@
+/* .main {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+  color: green;
+  border: 2px solid;
+  border-color: forestgreen;
+}
+
+.main:hover {
+  background-color: green;
+  color: aliceblue;
+  cursor: pointer;
+} */
+
+.seat.vacant {
+  background-color: aliceblue;
+  color: green;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid;
+}
+
+.seat.booked {
+  background-color: gray;
+  color: black;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid;
+}
+
+.seat.vacant:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
+
+/* .seat.booked:hover {
+  cursor: pointer;
+} */
